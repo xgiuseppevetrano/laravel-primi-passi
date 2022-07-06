@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.home,
+.learning,
+.blog,
+.doc,
+.new-version {
+    text-align: center;
+}
+
+.home__title,
+.learning__title,
+.blog__title,
+.doc__title,
+.new-version__title {
+    font-size: 3.75rem;
+    line-height: 5rem;
+}
+
+.home__nav {
+    margin-top: 2.5rem;
+}
+
+.home__lists {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home__items {
+    list-style-type: none;
+}
+
+.home__link {
+    color: black;
+    text-decoration: none;
+}
