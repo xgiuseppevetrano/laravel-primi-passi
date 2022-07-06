@@ -12,9 +12,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="blog">
-            <h1 class="blog__title">Qui troverai tutti gli articoli su Laravel presi dal nostro blog</h1>
-        </div>
+        <h1 class="title">Qui troverai tutti gli articoli su Laravel presi dal nostro blog</h1>
     </div>
 </body>
 </html>

@@ -12,9 +12,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="learning">
-            <h1 class="learning__title">Qui troverai tutte le lezioni per imparare ad usare al meglio Laravel</h1>
-        </div>
+        <h1 class="title">Qui troverai tutte le lezioni per imparare ad usare al meglio Laravel</h1>
     </div>
 </body>
 </html>

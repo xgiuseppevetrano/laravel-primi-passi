@@ -12,9 +12,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="doc">
-            <h1 class="doc__title">Qui puoi trovare tutta la documentazione di Laravel per risolvere ogni tuo dubbio</h1>
-        </div>
+        <h1 class="title">Qui puoi trovare tutta la documentazione di Laravel per risolvere ogni tuo dubbio</h1>
     </div>
 </body>
 </html>

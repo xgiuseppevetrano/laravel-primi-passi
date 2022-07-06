@@ -12,9 +12,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="new-version">
-            <h1 class="new-version__title">Qui verrai aggiornato su tutte le nuove versioni di Laravel e le nuove funzionalità</h1>
-        </div>
+        <h1 class="title">Qui verrai aggiornato su tutte le nuove versioni di Laravel e le nuove funzionalità</h1>
     </div>
 </body>
 </html>
