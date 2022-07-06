@@ -7,6 +7,14 @@
     <title>Home</title>
 </head>
 <body>
-    <h1>Benvento su Laravel</h1>
+    <h1>Laravel</h1>
+    <nav>
+        <ul>
+            <li><a href="/doc">Laravel Doc</a></li>
+            <li><a href="/new-version">Laravel New Version</a></li>
+            <li><a href="/blog">Laravel Blog</a></li>
+            <li><a href="/learning">Laravel Learning</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
