@@ -1,24 +1,3 @@
-<?php
-    $links = [
-        [
-            "href" => "/doc",
-            "text" => "Doc"
-        ],
-        [
-            "href" => "/new-version",
-            "text" => "New Version"
-        ],
-        [
-            "href" => "/blog",
-            "text" => "Blog"
-        ],
-        [
-            "href" => "/learning",
-            "text" => "Learning"
-        ]
-    ]
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,9 +15,9 @@
         <h1 class="title">Laravel</h1>
         <nav class="nav">
             <ul class="lists">
-                <?php foreach ($links as $link) { ?>
-                    <li class="lists__item"><a class="lists__link" href="<?= $link["href"] ?>"><?= $link["text"] ?></a></li>
-                <?php } ?>
+                @foreach ($links as $link)
+                    <li class="lists__item"><a class="lists__link" href="{{$link["href"]}}">{{$link["text"]}}</a></li>
+                @endforeach
             </ul>
         </nav>
     </div>

@@ -14,7 +14,26 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $links = [
+        [
+            "href" => "/doc",
+            "text" => "Doc"
+        ],
+        [
+            "href" => "/new-version",
+            "text" => "New Version"
+        ],
+        [
+            "href" => "/blog",
+            "text" => "Blog"
+        ],
+        [
+            "href" => "/learning",
+            "text" => "Learning"
+        ]
+    ];
+
+    return view('home', compact('links'));
 });
 
 Route::get('/doc', function () {
